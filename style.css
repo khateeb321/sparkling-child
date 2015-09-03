@@ -8,3 +8,26 @@
  Version:      1.0.0
 */
 @import url("../sparkling/style.css");
+
+.navbar.navbar-default {
+    background-color: #fff;
+    min-height: 160px;
+}
+
+.navbar > .container .navbar-brand {
+    color: #333;
+}
+
+.title-area {
+    float: left;
+    padding: 10px 0;
+    width: 360px;
+}
+
+.site-title {
+    margin-bottom: 0;
+}
+
+.site-description, .site-title {
+    margin-bottom: 0;
+}

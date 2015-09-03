@@ -42,7 +42,7 @@
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -56,6 +56,7 @@
     background-color: #333;
 }
 
+
 .site-inner, .wrap {
     margin: 0 auto;
     max-width: 1200px;
@@ -66,6 +67,7 @@
     font-size: 16px;
     line-height: 1;
     width: 100%;
+    padding-left: inherit;
 }
 
 
@@ -79,9 +81,14 @@
     text-align: left;
     height: 76px;
     padding: 30px;
-    min-width: 140px;
+    padding-left: 0px;
+    min-width: 130px;
 }
 
 .nav-primary .genesis-nav-menu a {
     color: #fff;
+}
+
+.nav-primary .genesis-nav-menu a:hover {
+    color: #e5554e;
 }

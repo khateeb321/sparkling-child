@@ -1,0 +1,10 @@
+/*
+ Theme Name:   Simple Theme
+ Theme URI:    localhost/wordpress/
+ Description:  My personal blog theme
+ Author:       Ahmed Khateeb
+ Author URI:   https://github.com/khateeb321
+ Template:     sparkling
+ Version:      1.0.0
+*/
+@import url("../sparkling/style.css");
